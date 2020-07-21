@@ -187,6 +187,5 @@ public class Get_Post_Put_Delete extends Base{
 		String jsonString = response.asString();
 		Map<String, String> records = JsonPath.from(jsonString).get("city");
 		records.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
-//		System.out.println(line);
 	}
 }
