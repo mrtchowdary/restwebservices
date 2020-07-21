@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest API">
+  <!-- <test name="Rest API test using httpclient">
+  	<classes>
+  		<class name="de.qa.testclient.TestClient"/>
+  	</classes>
+  </test>-->
+  <test name="Rest API test using RestAssured">
+  	<classes>
+  		<class name="de.qa.restassured.RestAssuredAPITest"/>
+  	</classes>
+  </test> 
+ </suite> <!-- Suite -->
